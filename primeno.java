@@ -5,19 +5,25 @@ public class primeno {
             Scanner sc =new Scanner(System.in);
             System.out.println("Enter a num");
            int  n= sc.nextInt();
-
-           int count=0;
-           for(int i=2;i<n;i++){
-            if(n%i==0){
+        int count=0;
+        for(int i=1;i<=n;i++)
+        {
+            if(n%i==0)
+            {
                 count++;
             }
-            if(count==0){
-                System.out.println("Its Prime");
-            }
-            else{
-                System.out.println("not prime");
-            }
-           }
+
+        }
+        if(count==2)
+        {
+            System.out.println("Prime number");
+        }
+        else
+        {
+            System.out.println("Not a prime number");
+        }
+        sc.close();
+        
              
     }    
 }

@@ -13,6 +13,6 @@ public class greater {
         }
         else
             System.out.println(b+": is Greater");
-    
+        sc.close();
     }
 }

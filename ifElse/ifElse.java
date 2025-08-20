@@ -13,5 +13,6 @@ public class ifElse {
         else{
             System.out.println(x+" 40is negative number");
         }
+        sc.close();
     }
 }

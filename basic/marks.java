@@ -21,7 +21,7 @@ public static void main(String[] args) {
         else if(x<60){
             System.out.println("below par");
         }
-
+        sc.close();
     }
 }    
 
