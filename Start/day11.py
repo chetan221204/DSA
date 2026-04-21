@@ -64,7 +64,7 @@ def longestConsecutive(nums):
     return longest 
 
 
-nums = [100, 4, 200, 1, 3, 2]
+nums = [102,4,100,1,101,3,2,1,1]
 print(longestConsecutive(nums))
 
 
